@@ -1,5 +1,5 @@
 # Modmail System
-A Simple Modmail System In Discord.py Using Json As DB\nif theres error or anything you can comment or dm me in discord with this username : TheGenocide#0110
+A Simple Modmail System In Discord.py Using Json As DBif theres error or anything you can comment or dm me in discord with this username : TheGenocide#0110
 # Warnings!
 This system is not for PUBLIC BOT! keep that in mind
 # How Is It Work?
