@@ -66,11 +66,11 @@ async def on_message(msg):
 					color=discord.Color.green()
 				)
 
-
 				channels=await cate.create_text_channel(name=f"Modmail- {ctx.author.name.title()}", topic=f"{ctx.author.id}", overwrites=Modmail)
 
 				await channels.send(embed=em, content=ctx.author.id)
 				await channels.send(f"{role.mention} Someone use the modmail system!")
+				await channels.send(f"To help {ctx.author.mention} you can type\nhelp-{ctx.author.id}")
 				await ctx.author.send(f"Your requested has been fufilled :thumbsup:\nPlease wait until the MOD team response!")
 
 				mod["Modmail"]["On Going"][str(ctx.author.id)] = True
