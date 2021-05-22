@@ -22,7 +22,7 @@ async def on_message(msg):
 
 	_id_=random.randint(1000000,9999999)
 	ctx=await client.get_context(msg)
-	channel=client.get_channel(CATEGORY ID HERE)
+	cate=client.get_channel(CATEGORY ID HERE)
 	guild=client.get_guild(YOUR SERVER ID HERE)
 	role=guild.get_role(THE ROLE THAT HANDLE MODMAIL)
 	
@@ -66,7 +66,6 @@ async def on_message(msg):
 					color=discord.Color.green()
 				)
 
-				cate=client.get_channel(>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>)
 
 				channels=await cate.create_text_channel(name=f"Modmail- {ctx.author.name.title()}", topic=f"{ctx.author.id}", overwrites=Modmail)
 
