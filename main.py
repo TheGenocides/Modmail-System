@@ -66,7 +66,7 @@ async def on_message(msg):
 					color=discord.Color.green()
 				)
 
-				cate=client.get_channel(836524134288326707)
+				cate=client.get_channel(>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>)
 
 				channels=await cate.create_text_channel(name=f"Modmail- {ctx.author.name.title()}", topic=f"{ctx.author.id}", overwrites=Modmail)
 
